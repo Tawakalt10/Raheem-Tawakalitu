@@ -121,8 +121,13 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--white-color);
+    
+}
+
+.nav-name{
+    padding-left: 1rem;
 }
  .nav__toggle,
  .nav__close{
@@ -131,6 +136,7 @@ img{
     width: 2rem;
     color: var(--white-color);
 } 
+
 
 /* Navigation foe mobile devices */
 
@@ -259,3 +265,71 @@ img{
 .inspired span{
     color:var(--text-color) ;
 }
+
+
+/* =====Work===== */
+
+.container__details{
+    padding:  0 4rem;
+    
+} 
+.featured{
+    font-size: .75rem;
+    color: var(--text-color-2);
+    text-transform: uppercase;
+    padding-left: 2rem;
+}
+
+.others{
+    margin-top: 3rem;
+
+}
+ .work__wrapper{
+    width: 30rem;
+    height: 15rem;
+    padding-inline: 1.8rem 3rem;
+    background-color: #1B1B1D;
+
+} 
+
+.work__heading{
+    margin-top: 2rem;
+    color: var(--white-color);
+    line-height: 1.5;
+    padding-top: 1.5rem;
+}
+
+.work__details{
+    margin-top: 2rem;
+    color: var(--text-color-2);
+    font-size: .8rem;
+}
+
+.work__info{
+color: var(--text-color);
+font-size: .8rem;
+    
+}
+
+
+.live__icon{
+    display: flex;
+    font-size: .8rem;
+    padding-top: 4rem;
+    
+}
+.icon{
+    margin-right:.3rem;
+    color: var(--text-color-2);
+    transition: color .4s ;
+}
+.icon i:hover{
+    color: var(--white-color);
+}
+
+.live__icon a{
+    color: var(--text-color);
+    font-weight: var(--font-regular);
+}
+
+
