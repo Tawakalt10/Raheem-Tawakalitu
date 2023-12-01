@@ -469,7 +469,16 @@ font-size: .8rem;
    }
 
 
-   
+  .main{
+    display: flex;
+  }
+
+
+  .featured{
+    margin-top: 5rem;
+  }
+
+
 
    
 
