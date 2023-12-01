@@ -102,7 +102,7 @@ img{
 }
 
 
-.nav-item a{
+.nav-item_link{
     color: var(--text-color-2);
     font-size: 1.4rem;
     
@@ -115,7 +115,7 @@ img{
     font-size: 1.4rem;
 }
 
-.nav-name,
+.nav-name a,
 .nav__close,
 .nav__toggle{
     display: flex;
@@ -126,7 +126,7 @@ img{
     
 }
 
-.nav-name{
+.nav-name a{
     padding-left: 1rem;
 }
  .nav__toggle,
@@ -152,12 +152,12 @@ img{
         text-align: center;
         flex-direction: column;
         row-gap: 2.5rem;
-
+        transition: top .4s;
     
     }
 }
 
-.nav-item a:hover{
+.nav-item_link:hover{
     color: var(--white-color);
     transition:  color .4s ;
 }
@@ -333,3 +333,156 @@ font-size: .8rem;
 }
 
 
+
+
+
+/*=========BREAKPOINTS======= */
+
+/* For larger devices */
+@media screen and  (min-width: 1150px ){
+
+    .nav {
+        display: none;
+    }
+
+    .home-main{
+        padding-inline: 2rem;
+    }
+
+    
+
+    .home__name{
+        font-size: 2rem;
+        line-height: 1.4; 
+        text-align: left;
+        padding-inline: 3rem; 
+        margin-top: 2rem;
+        
+        
+
+    }
+
+    .img{
+        position: relative;
+    }
+
+    .home-img{
+        position: absolute;
+        bottom: -28rem;
+        left: 2.8rem;
+        height: 4rem;
+    }
+
+    .home__info{
+        text-align: left;
+    }
+
+    .details-section{
+        padding-top: 2rem;
+            
+    }
+    .details-section:hover{
+         color: var(--white-color);
+    }
+
+    .details {
+        display: flex;
+        padding-inline: 3rem;
+        align-items: center;     
+        padding-left: 2rem;   
+    }
+
+    .num:hover{
+        color: var(--white-color);
+    }
+    .line-info a:hover{
+         color: var(--white-color);
+    }
+
+    .line-info {
+        height: 1px;
+        width: 2rem;
+        background-color: var(--text-color-2);
+    }
+
+    .num{
+        margin: 1rem;
+    }
+
+    .work-link{
+        margin: 1rem;
+    }
+
+    .info:hover{
+     color: #fff;
+    }
+
+    .line-info-link{
+        color: white;
+        width: 3rem;
+    }
+
+    .details a, h3{
+     color: var(--text-color-2);  
+     font-size: .8rem; 
+    }
+    
+
+   .explore{
+    display: none;
+   }
+
+   .home__icon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 7rem;
+    margin-top: 2rem;
+   }
+
+   .home__icon a{
+    margin:  .7rem;
+   }
+
+   .home__icon span{
+    color: var(--white-color);
+     font-size: .8rem; 
+   }
+
+   .nav__social-link{
+    font-size: .9rem;
+    color: var(--text-color-2);
+    
+   }
+   .nav__social-link i{
+    margin: .2rem;
+   }
+
+   .inspired{
+    display: flex;
+    margin-top: 3rem;
+    padding-left: 2.7rem;
+   }
+
+   .inspired span{
+    margin: 0 .3rem;
+   }
+
+   
+
+
+
+  
+
+}
+
+
+
+
+
+@media  screen and (max-width:1150px) {
+     br{
+    display: none;
+}   
+
+}

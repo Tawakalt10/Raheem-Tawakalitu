@@ -17,14 +17,22 @@
   <body>
     <header class="header" id="header">
       <nav class="nav">
-        <h3 class="nav-name">Tee.</h3>
+      <h3 class="nav-name"> <a href="#"> Tee.</a></h3>
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
-            <li class="nav-item"><a href="#">Home</a></li>
-            <li class="nav-item"><a href="/work.html">Work</a></li>
-            <li class="nav-item"><a href="#">Articles</a></li>
             <li class="nav-item">
-              <a href="https://www.linkedin.com/in/tawakalitu-raheem-81b78015a"
+              <a href="#home" class="nav-item_link"> Home </a>
+            </li>
+            <li class="nav-item">
+              <a href="#work" class="nav-item_link">Work</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-item_link">Articles</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://www.linkedin.com/in/tawakalitu-raheem-81b78015a"
+                class="nav-item_link"
                 >LinkedIn</a
               >
             </li>
@@ -50,7 +58,7 @@
             </a>
 
             <a
-              href="https://github.com/Tawakalt10"
+              href="mailto:raheemtawa@gmail.com"
               target="_blank"
               class="nav__social-link"
             >
@@ -69,56 +77,214 @@
       </nav>
     </header>
 
-    <section class="home">
-      <div class="home">
-        <div class="img">
-          <img src="/img/home-img.jpg" alt="image" class="home-img" />
+    
+
+      <section class="home section" id="home">
+        <div class="home-main">
+          <div class="img">
+            <img src="/img/home-img.jpg" alt="image" class="home-img" />
+          </div>
+
+          <div class="home-info">
+            <h3 class="home__name">Hello, I'm <br />Raheem Tawakalitu.</h3>
+            <p class="home__info">
+              I'm a <span> frontend engineer</span>. I create responsive <br />
+              and <span> interactive</span> web experience. I am interested in
+              <span> user experience, <br /></span> accesibility,
+              <span> design systems</span> and <span>web animations.</span>
+            </p>
+          </div>
+
+          <article class="details-section">
+            <div class="details">
+              <h3 class="num">00</h3>
+              <a href="/work.html" class="line-info"></a>
+
+              <h3 class="work-link"><a href="/work.html">work</a></h3>
+            </div>
+
+            <div class="details">
+              <h3 class="num">01</h3>
+              <a href="/blog.html" class="line-info"></a>
+
+              <h3 class="work-link"><a href="/blog.html">articles</a></h3>
+            </div>
+
+            <div class="details">
+              <h3 class="num">02</h3>
+
+              <a
+                href="https://www.linkedin.com/in/tawakalitu-raheem-81b78015a"
+                class="line-info"
+              ></a>
+
+              <h3 class="work-link">
+                <a
+                  href="https://www.linkedin.com/in/tawakalitu-raheem-81b78015a"
+                  >LinkedIn</a
+                >
+              </h3>
+            </div>
+          </article>
+          <div class="explore">
+            <button class="explore__btn">
+              <a href="#"> Explore arrow_right</a>
+            </button>
+          </div>
+
+          <div class="home__icon">
+            <div class="icon-wrapper">
+              <a
+                href="https://github.com/Tawakalt10"
+                target="_blank"
+                class="nav__social-link"
+              >
+                <i class="fa-brands fab fa-github"></i> <span>Github</span>
+                <i class="fa-solid fa-arrow-up"></i>
+              </a>
+            </div>
+
+            <div class="icon-wrapper">
+              <a
+                href="https://twitter.com/CheeckyT"
+                target="_blank"
+                class="nav__social-link"
+              >
+                <i class="fa-brands fab fab fa-twitter"></i> <span>Twitter</span>
+                <i class="fa-solid fa-arrow-up"> </i>
+              </a>
+            </div>
+
+            <div class="icon-wrapper">
+              <a
+                 href="https://github.com/Tawakalt10"
+                target="_blank"
+                class="nav__social-link"
+              >
+                <i class="fa-brands fab fas fa-at"></i> <span>Email</span>
+                <i class="fa-solid fa-arrow-up"></i>
+              </a>
+            </div>
+          </div>
+
+          <p class="inspired">Inspired by <span> Collins Enebeli</span></p>
         </div>
+      </section>
 
-        <div class="home-info">
-          <h3 class="home__name">Hello, I'm Raheem Tawakalitu</h3>
-          <p class="home__info">
-            I'm a <span> frontend engineer</span>. I create responsive and
-            <span> interactive</span> web experience. I am interested in
-            <span> user experience,</span> accesibility,
-            <span> design systems</span> and <span>web animations.</span>
-          </p>
+
+        <section class="work section"  id="work">
+      <div class="work-container">
+        <h3 class="featured">Featured</h3>
+        <div class="container__details">
+         <div class="work__wrapper">
+            <h3 class="work__heading">Social Media Dashboard</h3>
+            <h4 class="work__info">HTML + CSS + JAVASCRIPT</h4>
+            <p class="work__details">
+              A social media dasborad that toggles beteen light and dark mode
+            </p>
+
+            <div class="live__icon">
+              <div class="icon">
+                <a href="https://social-media-dashboard-pi-five.vercel.app/"> <i class="fa-solid fa-eye"></i> </a>
+              </div>
+              <div class="live__para">
+              <a href="https://social-media-dashboard-pi-five.vercel.app/">Live</a>
+              </div>
+            </div>
+         </div>
+
+            <div class="work__wrapper ">
+            <h3 class="work__heading">Landing page</h3>
+            <h4 class="work__info">HTML + CSS + JAVASCRIPT</h4>
+            <p class="work__details">
+              Loop studio landing page that shows all details
+            </p>
+
+            <div class="live__icon">
+              <div class="icon">
+               <a href="https://landing-page-blue-eight.vercel.app/">  <i class="fa-solid fa-eye"></i></a>
+              </div>
+               <div class="live__para">
+                <a href="https://landing-page-blue-eight.vercel.app/">Live</a>
+              </div>
+            </div>      
         </div>
-        <div class="explore">
-          <button class="explore__btn">
-            <a href="#"> Explore arrow_right</a>
-          </button>
-        </div>
-
-        <div class="home__icon">
-          <a
-            href="https://github.com/Tawakalt10"
-            target="_blank"
-            class="nav__social-link"
-          >
-            <i class="fa-brands fab fa-github"></i>
-          </a>
-
-          <a
-            href="https://github.com/Tawakalt10"
-            target="_blank"
-            class="nav__social-link"
-          >
-            <i class="fa-brands fab fab fa-twitter"></i>
-          </a>
-
-          <a
-            href="https://github.com/Tawakalt10"
-            target="_blank"
-            class="nav__social-link"
-          >
-            <i class="fa-brands fab fas fa-at"></i>
-          </a>
-        </div>
-
-        <p class="inspired">Inspired by <span> Collins Enebeli</span></p>
       </div>
-    </section>
+
+
+
+       <h3 class="featured others">Others</h3>
+        <div class="container__details">
+         <div class="work__wrapper">
+            <h3 class="work__heading"> Car website</h3>
+            <h4 class="work__info">HTML + CSS + JAVASCRIPT</h4>
+            <p class="work__details">
+              A responsive display of cars with beautiful animaitions 
+            </p>
+
+            <div class="live__icon">
+              <div class="icon">
+                <a href="https://classic-cars-nu.vercel.app/#home"> <i class="fa-solid fa-eye"></i> </a>
+              </div>
+              <div class="live__para">
+              <a href="https://classic-cars-nu.vercel.app/#home">Live</a>
+              </div>
+            </div>
+         </div>
+
+          <div class="work__wrapper">
+            <h3 class="work__heading">Halloween</h3>
+            <h4 class="work__info">HTML + CSS + JAVASCRIPT</h4>
+            <p class="work__details">
+              A landing halloween site with beautiful animatioms
+            </p>
+
+            <div class="live__icon">
+              <div class="icon">
+                <a href="https://social-media-dashboard-pi-five.vercel.app/"> <i class="fa-solid fa-eye"></i> </a>
+              </div>
+              <div class="live__para">
+              <a href="https://social-media-dashboard-pi-five.vercel.app/">Live</a>
+              </div>
+            </div>
+         </div>
+
+          <div class="work__wrapper">
+            <h3 class="work__heading"> A calculator</h3>
+            <h4 class="work__info">HTML + CSS + JAVASCRIPT</h4>
+            <p class="work__details">
+              A calculator that d
+            </p>
+
+            <div class="live__icon">
+              <div class="icon">
+                <a href="https://social-media-dashboard-pi-five.vercel.app/"> <i class="fa-solid fa-eye"></i> </a>
+              </div>
+              <div class="live__para">
+              <a href="https://social-media-dashboard-pi-five.vercel.app/">Live</a>
+              </div>
+            </div>
+         </div>
+
+            <div class="work__wrapper ">
+            <h3 class="work__heading">Landing page</h3>
+            <h4 class="work__info">HTML + CSS + JAVASCRIPT</h4>
+            <p class="work__details">
+              Loop studio landing page that shows all details
+            </p>
+
+            <div class="live__icon">
+              <div class="icon">
+               <a href="https://landing-page-blue-eight.vercel.app/">  <i class="fa-solid fa-eye"></i></a>
+              </div>
+               <div class="live__para">
+                <a href="https://landing-page-blue-eight.vercel.app/">Live</a>
+              </div>
+            </div>      
+        </div>
+      </div>
+      </section>
+
 
     <script src="/index.js"></script>
   </body>
