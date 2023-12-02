@@ -291,6 +291,9 @@ img{
     background-color: #1B1B1D;
 
 } 
+.work__wrapper:hover{
+         transform: scale(1.1);
+   }
 
 .work__heading{
     margin-top: 2rem;
@@ -490,7 +493,15 @@ font-size: .8rem;
    }
 
 
-  
+   .live__icon a{
+    transition: color .2s;
+   }
+
+  .live__icon a:hover{
+
+    color: var(--white-color);
+
+  }
 
 }
 
