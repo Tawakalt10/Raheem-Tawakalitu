@@ -477,10 +477,22 @@ font-size: .8rem;
   .featured{
     margin-top: 5rem;
   }
-
-
-
-   
+    .work__wrapper{
+       width: 30rem;
+       height: 13rem;
+       padding-inline: 1.8rem 3rem;   
+       transition: all .4s;
+    }
+    
+    
+   .work__wrapper:hover{
+         transform: scale(1.1);
+   }
+   /* .work__wrapper:hover{
+       width: 30rem;
+       height: 17rem;
+    padding-inline: 2rem 3rem;
+   } */
 
 
 
