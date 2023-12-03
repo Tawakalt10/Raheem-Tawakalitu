@@ -28,14 +28,4 @@ const navMenu = document.getElementById('nav-menu'),
 
 // ======= FOR VIEW HEIGHT=======//
 
-const viewHeight = () =>{
-    const work= document.getElementById('work')
 
-    //  when the scroll is greater thaan 100 view height,
-    // remove the others
-
-    this.scrollY >=100 ? work.classList.remove('work')
-                       : work.classList.add('work')
-}
-
-window.addEventListener('scroll', viewHeight)
