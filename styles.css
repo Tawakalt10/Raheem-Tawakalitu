@@ -513,5 +513,17 @@ font-size: .8rem;
      br{
     display: none;
 }   
+   
+  .details-section{
+    display: none;
+  }
 
+  .home__icon span
+  {
+    display: none;
+  }
+
+  .inspired{
+    margin-top:2rem ;
+  }
 }
