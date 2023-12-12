@@ -341,12 +341,14 @@ font-size: .8rem;
 
 /*=========BREAKPOINTS======= */
 
-/* For larger devices */
+/* For large devices */
 @media screen and  (min-width: 1150px ){
 
     .nav {
         display: none;
     }
+
+    
 
     .home-main{
         padding-inline: 2rem;
@@ -371,7 +373,7 @@ font-size: .8rem;
 
     .home-img{
         position: absolute;
-        bottom: -28rem;
+        bottom: -24rem;
         left: 2.8rem;
         height: 4rem;
     }
@@ -503,8 +505,8 @@ font-size: .8rem;
 
   }
 
+ 
 }
-
 
 
 
@@ -526,4 +528,61 @@ font-size: .8rem;
   .inspired{
     margin-top:2rem ;
   }
+
+    
+   .work-desktop{
+    display: none;
+  }
+
+}
+
+@media screen and (max-width:600px){
+    .work__wrapper{
+    width: 25rem;
+    height: 14rem;
+    padding-inline: 1.2rem 2rem;
+    background-color: #1B1B1D;
+} 
+
+   
+}
+
+@media screen and (max-width:450px){
+      .work__wrapper{
+        font-size: .9rem;
+        height: 13rem;
+        max-width: 18rem;
+        padding-inline: 1rem;
+      }
+      
+
+    
+
+
+.work__heading{
+    margin-top: 1.8rem;
+    padding-top: 1.3rem;
+}
+
+.work__details{
+    margin-top: 1.7rem;
+    font-size: .7rem;
+}
+
+.work__info{
+color: var(--text-color);
+font-size: .7rem;
+    
+}
+
+.live__icon{
+    font-size: .7rem;
+    padding-top: 3rem;
+    
+}
+
+.container__details{
+    padding:  0 2rem;
+    
+} 
 }
