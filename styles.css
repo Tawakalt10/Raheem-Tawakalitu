@@ -585,4 +585,8 @@ font-size: .7rem;
     padding:  0 2rem;
     
 } 
+
+ .work__wrapper:hover{
+         transform: scale(1.1);
+   }
 }
