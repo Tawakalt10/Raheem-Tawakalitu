@@ -343,7 +343,7 @@ font-size: .8rem;
 
 /*=========BREAKPOINTS======= */
 
-/* For large devices */
+/* For large desktop devices */
 @media screen and  (min-width: 1150px ){
    .home{
     position: fixed;
