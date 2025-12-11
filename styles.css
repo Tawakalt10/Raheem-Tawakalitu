@@ -320,7 +320,7 @@ font-size: .8rem;
 .live__icon{
     display: flex;
     font-size: .8rem;
-    padding-top: 4rem;
+    padding-top: 3rem;
     
 }
 .icon{
@@ -356,7 +356,10 @@ font-size: .8rem;
     .nav {
         display: none;
     }
-
+    
+    .work-mobile{
+        display: none;
+    }
     
 
     .home-main{
@@ -506,6 +509,10 @@ font-size: .8rem;
 
    .live__icon a{
     transition: color .2s;
+    
+    
+    
+
    }
 
   .live__icon a:hover{
