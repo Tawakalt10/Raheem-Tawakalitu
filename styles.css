@@ -566,7 +566,7 @@ font-size: .8rem;
       .work__wrapper{
         font-size: .9rem;
         height: 13rem;
-        max-width: 18rem;
+        max-width: 16rem;
         padding-inline: 1rem;
       }
       
@@ -597,7 +597,7 @@ font-size: .7rem;
 }
 
 .detailed{
-    padding-top: 1.8rem;
+    padding-top: 1.3rem;
 }
 
 .container__details{
