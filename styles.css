@@ -295,6 +295,8 @@ img{
 } 
 .work__wrapper:hover{
          transform: scale(1.1);
+         background-color:   #272727;
+         transition: 1s background-color transform;
    }
 
 .work__heading{
