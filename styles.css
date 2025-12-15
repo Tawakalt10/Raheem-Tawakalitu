@@ -385,6 +385,13 @@ font-size: .8rem;
         position: relative;
     }
 
+    .icon-wrapper i:hover{
+        transform: scale(1.2);
+        transition: 1.5s scale
+        
+    }
+
+ 
     .home-img{
         position: absolute;
         bottom: -24rem;
