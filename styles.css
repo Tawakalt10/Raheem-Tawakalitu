@@ -350,6 +350,9 @@ font-size: .8rem;
    .home{
     position: fixed;
    }
+   .last{
+    margin-bottom: 1.3rem;
+   }
 
    .work-container{
     position: absolute;
@@ -539,6 +542,7 @@ font-size: .8rem;
      br{
     display: none;
 }   
+
    
   .details-section{
     display: none;
@@ -556,6 +560,10 @@ font-size: .8rem;
     
    .work-desktop{
     display: none;
+  }
+
+  .inspired{
+    margin-bottom: 1.3rem;
   }
 
 }

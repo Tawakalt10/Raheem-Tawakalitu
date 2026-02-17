@@ -13,6 +13,18 @@
       referrerpolicy="no-referrer"
     />
   </head>
+
+   <script>
+  function redirectIfDesktop() {
+    if (window.matchMedia("(min-width: 850px)").matches) {
+      window.location.replace("/");
+    }
+  }
+
+  redirectIfDesktop();
+  window.addEventListener("resize", redirectIfDesktop);
+</script>
+
   <body>
     <section class="work-mobile">
 
